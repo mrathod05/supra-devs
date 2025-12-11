@@ -1,0 +1,67 @@
+{
+  "name": "@mrathod05/supra-devs",
+  "version": "1.0.3",
+  "description": "A comprehensive utilities library for building Supra dApps with React hooks, wallet integration, and transaction management",
+  "author": "mrathod05",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrathod05/supra-devs.git",
+    "directory": "npm-packages/supra-devs"
+  },
+  "bugs": {
+    "url": "https://github.com/mrathod05/supra-devs/issues"
+  },
+  "homepage": "https://github.com/mrathod05/supra-devs#readme",
+  "keywords": [
+    "supra",
+    "blockchain",
+    "react",
+    "wallet",
+    "hooks",
+    "web3",
+    "dapp",
+    "utilities",
+    "l1-sdk"
+  ],
+  "scripts": {
+    "build": "tsc --module commonjs --outDir dist",
+    "build:esm": "tsc --outDir dist/esm",
+    "build:all": "npm run build && npm run build:esm",
+    "postbuild": "chmod +x ./dist/index.js || true",
+    "prepare": "npm run build",
+    "prebuild": "rm -rf dist",
+    "dev": "tsc --watch --module commonjs"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    }
+  },
+  "dependencies": {
+    "supra-l1-sdk": "^0.0.10",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.8.3",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}

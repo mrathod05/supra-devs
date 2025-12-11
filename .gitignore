@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# TypeScript build output
+/dist/
+/build/
+
+# Logs
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# npm package lock
+package-lock.json
+
+# yarn.lock if you use yarn
+yarn.lock
+
+# Environment files
+.env
+.env.*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+*.tmp
