@@ -311,27 +311,3 @@ if (!isConnected) {
 
 return <ComponentContent />
 ```
-
----
-
-## API Reference
-
-For detailed API documentation, see:
-👉 [Full API Reference](https://github.com/mrathod05/supra-devs#api-reference)
-
-## Support
-
-- **Issues**: https://github.com/mrathod05/supra-devs/issues
-- **Discussions**: https://github.com/mrathod05/supra-devs/discussions
-- **Documentation**: https://github.com/mrathod05/supra-devs#readme
-
----
-
-## License
-
-MIT - See LICENSE file for details
-
----
-
-**Last Updated:** December 11, 2025
-**Framework Versions:** React 19+, Next.js 13+
